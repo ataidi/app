@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+</head>
+<body>
+
+<form method="post">
+    <label>PRODUCT NAME:</label>
+    <input type="text" name="pname" placeholder="product name" required>
+
+    <label>Quantity</label>
+    <input type="text" name="qty" placeholder="Enter quantity" required>
+
+    <button type="submit">Add new product</button>
+</form>
+<a href="{{ url_for('view')}}">View items</a>
+</body>
+</html>
