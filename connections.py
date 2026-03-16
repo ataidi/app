@@ -2,8 +2,7 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker, declarative_base
 
 # PostgreSQL connection URL from Render
-path = "postgresql+psycopg2://app_database_kosh_user:lzELMxoJZwJaHJWwAM3KphuXG6DuBIru@dpg-d6rv1nfafjfc73elqqeg-a.oregon-postgres.render.com:5432/app_database_koshv"
-
+path = "postgresql+psycopg2://app_database_kosh_user:password@dpg-d6rv1nfafjfc73elqqeg-a.oregon-postgres.render.com:5432/app_database_kosh"
 # Create SQLAlchemy engine
 engine = create_engine(path)
 
