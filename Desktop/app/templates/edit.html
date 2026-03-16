@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit</title>
+</head>
+<body>
+    <h1>Edit</h1>
+    <form method="post">
+    <label>PRODUCT NAME:</label>
+    <input type="text" name="pname" placeholder="product name"value={{product.pname}} required>
+
+    <label>Quantity</label>
+    <input type="text" name="qty" placeholder="Enter quantity"value={{product.qty}} required>
+
+    <button type="submit">Edit product</button>
+    </form>
+    
+<a href="/" class="btn btn-primary mb-3">Add New Product</a>
+</body>
+</html>
